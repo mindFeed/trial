@@ -2,11 +2,17 @@
 
 /* home page */
 .navbar {
+  height: 6rem;
+  font-size: 2rem;
   background-color: #545454;
   font-family: 'Montserrat', sans-serif;
   position: fixed;
   width: 100%;
-  z-index: 7;
+  z-index: 10;
+}
+
+.navbar-brand{
+  font-size: 2rem;
 }
 
 .search-btn{
@@ -25,9 +31,11 @@ margin-right: 10px;
 
 .title-image {
   width: 100%;
+  height: 1500px;
   position: fixed;
   bottom: 25%;
   z-index: -2;
+
 }
 
 .title {
@@ -37,30 +45,32 @@ margin-right: 10px;
 
 .title-name {
   background-color: #8c52ff;
+  margin-bottom: 130px;
 }
 
 .model {
-  width: 8rem;
+  width: 12rem;
   position: absolute;
   z-index: 3;
-  left: 200px;
-  bottom: 10px;
+  left: 130px;
+  bottom: 350px;
 }
 
 .logo {
-  width: 10rem;
+  width: 20rem;
   border-radius: 100%;
-  margin: 30px;
+  margin: 200px 30px 150px;
 }
 
 .name {
   color: white;
-  font-size: 4rem;
+  font-size: 8rem;
   font-family: 'Montserrat', sans-serif;
 }
 
 .sm-heading {
   color: white;
+  font-size: 3rem;
   font-family: 'Montserrat', sans-serif;
   padding: 0 0 4px;
 }
@@ -73,19 +83,21 @@ margin-right: 10px;
 
 /* intro */
 .intro {
+  margin-top: 150px;
   text-align: center;
   font-family: 'Dancing script';
   background-color: white;
 }
 
 .intro-text {
-  font-size: 2rem;
+  font-size: 4rem;
   margin: 3rem;
 }
 
 .intro-img-pen {
-  width: 10rem;
+  width: 15rem;
   position: absolute;
+  top: 1000px;
   right: 80px;
   z-index: 5;
 }
@@ -96,62 +108,24 @@ hr {
   width: 7rem;
 }
 
-/* carousel */
-#carousel{
-  padding: 0;
-margin: 3% 0;
-}
-
-.carousel-bg {
-  width: 100%;
-}
-
-.carousel {
-  padding: 0;
-}
-
-.carousel-inner {
-  padding: 0;
-}
-
-.carousel-text-box{
-  color: white;
-}
-
-.carousel-text{
-  padding: 0 9%;
-}
-
-
-.carousel-heading{
-  font-family: 'Montserrat';
-}
-
-.shayari{
-   font-family: 'Indie Flower';
-}
-
-.quote{
-   font-family: 'Indie Flower';
-}
-
 /* catagories */
 #catagories{
   margin:4rem 1.3rem 7rem;
 }
- .cat-head{
+ .catagories-title{
    font-family: 'Amatic SC';
-   font-size: 3rem;
+   font-size: 5rem;
    padding: 3rem;
    font-weight: bold;
    color:  #545454;
  }
 
 .btn{
-  padding: 1rem 7rem;
-  margin: 2px;
+  padding: 1rem 5rem;
+  margin: 2px 20px 20px 2px;
   border: none;
   font-family: 'Montserrat';
+  font-size: 2.5rem;
 }
 
 /* content */
@@ -188,6 +162,20 @@ margin: 3% 0;
   font-weight: bold;
 }
 
+/* sign-up */
+
+#sign-up{
+  margin: 90px 140px 60px;
+}
+
+.card-body{
+  padding: 0;
+}
+
+.sign-in-btn{
+  margin: 0;
+}
+
 /* feature */
 #feature{
   padding: 4rem 2rem;
@@ -195,6 +183,7 @@ margin: 3% 0;
 .file-btn{
   padding: 1rem 30rem;
 }
+
 
 /* contact us */
 
@@ -204,11 +193,14 @@ margin: 3% 0;
   padding: 1rem;
 }
 .contact-icon{
-  font-size: 2rem;
+  font-size: 3rem;
   padding: 2rem 2rem;
   color: #888888;
 }
 
+.copy-right{
+  font-size: 2rem;
+}
 
 
 /* media section */
@@ -237,24 +229,6 @@ margin: 3% 0;
     right: 50px;
   }
 
-  #carousel {
-    padding: 3% 0;
-    margin: 3rem 0;
-    background-color: #8c52ff;
-  }
-
-  .carousel-bg {
-    width: 0;
-  }
-
-  .carousel {
-    padding: 0;
-    height: 15rem;
-  }
-
-  .carousel-inner {
-    padding: 0;
-  }
 
   .btn{
     padding: 2.1rem;
